@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36416D2D2378497C003384C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D2C2378497C003384C5 /* AppDelegate.swift */; };
+		36416D2F2378497C003384C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D2E2378497C003384C5 /* SceneDelegate.swift */; };
+		36416D312378497C003384C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D302378497C003384C5 /* ViewController.swift */; };
+		36416D342378497C003384C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36416D322378497C003384C5 /* Main.storyboard */; };
+		36416D362378497D003384C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36416D352378497D003384C5 /* Assets.xcassets */; };
+		36416D392378497D003384C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36416D372378497D003384C5 /* LaunchScreen.storyboard */; };
+		36416D442378497E003384C5 /* CurveLinePopViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D432378497E003384C5 /* CurveLinePopViewTests.swift */; };
+		36416D4F2378497E003384C5 /* CurveLinePopViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D4E2378497E003384C5 /* CurveLinePopViewUITests.swift */; };
+		36416D60237849A3003384C5 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D5D237849A3003384C5 /* Bubble.swift */; };
+		36416D61237849A3003384C5 /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D5E237849A3003384C5 /* PopView.swift */; };
+		36416D62237849A3003384C5 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D5F237849A3003384C5 /* Line.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36416D402378497E003384C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36416D212378497C003384C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36416D282378497C003384C5;
+			remoteInfo = CurveLinePopView;
+		};
+		36416D4B2378497E003384C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36416D212378497C003384C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36416D282378497C003384C5;
+			remoteInfo = CurveLinePopView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36416D292378497C003384C5 /* CurveLinePopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurveLinePopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36416D2C2378497C003384C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36416D2E2378497C003384C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		36416D302378497C003384C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36416D332378497C003384C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36416D352378497D003384C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36416D382378497D003384C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36416D3A2378497D003384C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36416D3F2378497E003384C5 /* CurveLinePopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurveLinePopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36416D432378497E003384C5 /* CurveLinePopViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveLinePopViewTests.swift; sourceTree = "<group>"; };
+		36416D452378497E003384C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36416D4A2378497E003384C5 /* CurveLinePopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurveLinePopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36416D4E2378497E003384C5 /* CurveLinePopViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveLinePopViewUITests.swift; sourceTree = "<group>"; };
+		36416D502378497E003384C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36416D5D237849A3003384C5 /* Bubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
+		36416D5E237849A3003384C5 /* PopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
+		36416D5F237849A3003384C5 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36416D262378497C003384C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36416D3C2378497E003384C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36416D472378497E003384C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36416D202378497C003384C5 = {
+			isa = PBXGroup;
+			children = (
+				36416D2B2378497C003384C5 /* CurveLinePopView */,
+				36416D422378497E003384C5 /* CurveLinePopViewTests */,
+				36416D4D2378497E003384C5 /* CurveLinePopViewUITests */,
+				36416D2A2378497C003384C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36416D2A2378497C003384C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36416D292378497C003384C5 /* CurveLinePopView.app */,
+				36416D3F2378497E003384C5 /* CurveLinePopViewTests.xctest */,
+				36416D4A2378497E003384C5 /* CurveLinePopViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36416D2B2378497C003384C5 /* CurveLinePopView */ = {
+			isa = PBXGroup;
+			children = (
+				36416D5C237849A3003384C5 /* PopView */,
+				36416D2C2378497C003384C5 /* AppDelegate.swift */,
+				36416D2E2378497C003384C5 /* SceneDelegate.swift */,
+				36416D302378497C003384C5 /* ViewController.swift */,
+				36416D322378497C003384C5 /* Main.storyboard */,
+				36416D352378497D003384C5 /* Assets.xcassets */,
+				36416D372378497D003384C5 /* LaunchScreen.storyboard */,
+				36416D3A2378497D003384C5 /* Info.plist */,
+			);
+			path = CurveLinePopView;
+			sourceTree = "<group>";
+		};
+		36416D422378497E003384C5 /* CurveLinePopViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				36416D432378497E003384C5 /* CurveLinePopViewTests.swift */,
+				36416D452378497E003384C5 /* Info.plist */,
+			);
+			path = CurveLinePopViewTests;
+			sourceTree = "<group>";
+		};
+		36416D4D2378497E003384C5 /* CurveLinePopViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36416D4E2378497E003384C5 /* CurveLinePopViewUITests.swift */,
+				36416D502378497E003384C5 /* Info.plist */,
+			);
+			path = CurveLinePopViewUITests;
+			sourceTree = "<group>";
+		};
+		36416D5C237849A3003384C5 /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				36416D5D237849A3003384C5 /* Bubble.swift */,
+				36416D5E237849A3003384C5 /* PopView.swift */,
+				36416D5F237849A3003384C5 /* Line.swift */,
+			);
+			name = PopView;
+			path = "../../../../CookingBakery/Code/Burger Kitchen/Burger Kitchen/PopView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36416D282378497C003384C5 /* CurveLinePopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36416D532378497E003384C5 /* Build configuration list for PBXNativeTarget "CurveLinePopView" */;
+			buildPhases = (
+				36416D252378497C003384C5 /* Sources */,
+				36416D262378497C003384C5 /* Frameworks */,
+				36416D272378497C003384C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurveLinePopView;
+			productName = CurveLinePopView;
+			productReference = 36416D292378497C003384C5 /* CurveLinePopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36416D3E2378497E003384C5 /* CurveLinePopViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36416D562378497E003384C5 /* Build configuration list for PBXNativeTarget "CurveLinePopViewTests" */;
+			buildPhases = (
+				36416D3B2378497E003384C5 /* Sources */,
+				36416D3C2378497E003384C5 /* Frameworks */,
+				36416D3D2378497E003384C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36416D412378497E003384C5 /* PBXTargetDependency */,
+			);
+			name = CurveLinePopViewTests;
+			productName = CurveLinePopViewTests;
+			productReference = 36416D3F2378497E003384C5 /* CurveLinePopViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36416D492378497E003384C5 /* CurveLinePopViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36416D592378497E003384C5 /* Build configuration list for PBXNativeTarget "CurveLinePopViewUITests" */;
+			buildPhases = (
+				36416D462378497E003384C5 /* Sources */,
+				36416D472378497E003384C5 /* Frameworks */,
+				36416D482378497E003384C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36416D4C2378497E003384C5 /* PBXTargetDependency */,
+			);
+			name = CurveLinePopViewUITests;
+			productName = CurveLinePopViewUITests;
+			productReference = 36416D4A2378497E003384C5 /* CurveLinePopViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36416D212378497C003384C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Woody Apps";
+				TargetAttributes = {
+					36416D282378497C003384C5 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					36416D3E2378497E003384C5 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 36416D282378497C003384C5;
+					};
+					36416D492378497E003384C5 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 36416D282378497C003384C5;
+					};
+				};
+			};
+			buildConfigurationList = 36416D242378497C003384C5 /* Build configuration list for PBXProject "CurveLinePopView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36416D202378497C003384C5;
+			productRefGroup = 36416D2A2378497C003384C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36416D282378497C003384C5 /* CurveLinePopView */,
+				36416D3E2378497E003384C5 /* CurveLinePopViewTests */,
+				36416D492378497E003384C5 /* CurveLinePopViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36416D272378497C003384C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36416D392378497D003384C5 /* LaunchScreen.storyboard in Resources */,
+				36416D362378497D003384C5 /* Assets.xcassets in Resources */,
+				36416D342378497C003384C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36416D3D2378497E003384C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36416D482378497E003384C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36416D252378497C003384C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36416D61237849A3003384C5 /* PopView.swift in Sources */,
+				36416D312378497C003384C5 /* ViewController.swift in Sources */,
+				36416D2D2378497C003384C5 /* AppDelegate.swift in Sources */,
+				36416D62237849A3003384C5 /* Line.swift in Sources */,
+				36416D2F2378497C003384C5 /* SceneDelegate.swift in Sources */,
+				36416D60237849A3003384C5 /* Bubble.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36416D3B2378497E003384C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36416D442378497E003384C5 /* CurveLinePopViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36416D462378497E003384C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36416D4F2378497E003384C5 /* CurveLinePopViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36416D412378497E003384C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36416D282378497C003384C5 /* CurveLinePopView */;
+			targetProxy = 36416D402378497E003384C5 /* PBXContainerItemProxy */;
+		};
+		36416D4C2378497E003384C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36416D282378497C003384C5 /* CurveLinePopView */;
+			targetProxy = 36416D4B2378497E003384C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36416D322378497C003384C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36416D332378497C003384C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36416D372378497D003384C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36416D382378497D003384C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36416D512378497E003384C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36416D522378497E003384C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36416D542378497E003384C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CurveLinePopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WoodyApps.CurveLinePopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36416D552378497E003384C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CurveLinePopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WoodyApps.CurveLinePopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36416D572378497E003384C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CurveLinePopViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WoodyApps.CurveLinePopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurveLinePopView.app/CurveLinePopView";
+			};
+			name = Debug;
+		};
+		36416D582378497E003384C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CurveLinePopViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WoodyApps.CurveLinePopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurveLinePopView.app/CurveLinePopView";
+			};
+			name = Release;
+		};
+		36416D5A2378497E003384C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CurveLinePopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WoodyApps.CurveLinePopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CurveLinePopView;
+			};
+			name = Debug;
+		};
+		36416D5B2378497E003384C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CurveLinePopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WoodyApps.CurveLinePopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CurveLinePopView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36416D242378497C003384C5 /* Build configuration list for PBXProject "CurveLinePopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36416D512378497E003384C5 /* Debug */,
+				36416D522378497E003384C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36416D532378497E003384C5 /* Build configuration list for PBXNativeTarget "CurveLinePopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36416D542378497E003384C5 /* Debug */,
+				36416D552378497E003384C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36416D562378497E003384C5 /* Build configuration list for PBXNativeTarget "CurveLinePopViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36416D572378497E003384C5 /* Debug */,
+				36416D582378497E003384C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36416D592378497E003384C5 /* Build configuration list for PBXNativeTarget "CurveLinePopViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36416D5A2378497E003384C5 /* Debug */,
+				36416D5B2378497E003384C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36416D212378497C003384C5 /* Project object */;
+}
