@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3611474724F90FE900AE7BD6 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3611474424F90FE900AE7BD6 /* Line.swift */; };
+		3611474824F90FE900AE7BD6 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3611474524F90FE900AE7BD6 /* Bubble.swift */; };
+		3611474924F90FE900AE7BD6 /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3611474624F90FE900AE7BD6 /* PopView.swift */; };
 		36416D2D2378497C003384C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D2C2378497C003384C5 /* AppDelegate.swift */; };
 		36416D2F2378497C003384C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D2E2378497C003384C5 /* SceneDelegate.swift */; };
 		36416D312378497C003384C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D302378497C003384C5 /* ViewController.swift */; };
@@ -15,9 +18,6 @@
 		36416D392378497D003384C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36416D372378497D003384C5 /* LaunchScreen.storyboard */; };
 		36416D442378497E003384C5 /* CurveLinePopViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D432378497E003384C5 /* CurveLinePopViewTests.swift */; };
 		36416D4F2378497E003384C5 /* CurveLinePopViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D4E2378497E003384C5 /* CurveLinePopViewUITests.swift */; };
-		36416D60237849A3003384C5 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D5D237849A3003384C5 /* Bubble.swift */; };
-		36416D61237849A3003384C5 /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D5E237849A3003384C5 /* PopView.swift */; };
-		36416D62237849A3003384C5 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36416D5F237849A3003384C5 /* Line.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3611474424F90FE900AE7BD6 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		3611474524F90FE900AE7BD6 /* Bubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
+		3611474624F90FE900AE7BD6 /* PopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
 		36416D292378497C003384C5 /* CurveLinePopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurveLinePopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36416D2C2378497C003384C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36416D2E2378497C003384C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,9 +55,6 @@
 		36416D4A2378497E003384C5 /* CurveLinePopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurveLinePopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36416D4E2378497E003384C5 /* CurveLinePopViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveLinePopViewUITests.swift; sourceTree = "<group>"; };
 		36416D502378497E003384C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36416D5D237849A3003384C5 /* Bubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
-		36416D5E237849A3003384C5 /* PopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
-		36416D5F237849A3003384C5 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +82,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3611474324F90FBF00AE7BD6 /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				3611474524F90FE900AE7BD6 /* Bubble.swift */,
+				3611474424F90FE900AE7BD6 /* Line.swift */,
+				3611474624F90FE900AE7BD6 /* PopView.swift */,
+			);
+			path = PopView;
+			sourceTree = "<group>";
+		};
 		36416D202378497C003384C5 = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +115,7 @@
 		36416D2B2378497C003384C5 /* CurveLinePopView */ = {
 			isa = PBXGroup;
 			children = (
-				36416D5C237849A3003384C5 /* PopView */,
+				3611474324F90FBF00AE7BD6 /* PopView */,
 				36416D2C2378497C003384C5 /* AppDelegate.swift */,
 				36416D2E2378497C003384C5 /* SceneDelegate.swift */,
 				36416D302378497C003384C5 /* ViewController.swift */,
@@ -133,17 +143,6 @@
 				36416D502378497E003384C5 /* Info.plist */,
 			);
 			path = CurveLinePopViewUITests;
-			sourceTree = "<group>";
-		};
-		36416D5C237849A3003384C5 /* PopView */ = {
-			isa = PBXGroup;
-			children = (
-				36416D5D237849A3003384C5 /* Bubble.swift */,
-				36416D5E237849A3003384C5 /* PopView.swift */,
-				36416D5F237849A3003384C5 /* Line.swift */,
-			);
-			name = PopView;
-			path = "../../../../CookingBakery/Code/Burger Kitchen/Burger Kitchen/PopView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,12 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36416D61237849A3003384C5 /* PopView.swift in Sources */,
 				36416D312378497C003384C5 /* ViewController.swift in Sources */,
+				3611474824F90FE900AE7BD6 /* Bubble.swift in Sources */,
+				3611474724F90FE900AE7BD6 /* Line.swift in Sources */,
 				36416D2D2378497C003384C5 /* AppDelegate.swift in Sources */,
-				36416D62237849A3003384C5 /* Line.swift in Sources */,
+				3611474924F90FE900AE7BD6 /* PopView.swift in Sources */,
 				36416D2F2378497C003384C5 /* SceneDelegate.swift in Sources */,
-				36416D60237849A3003384C5 /* Bubble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
